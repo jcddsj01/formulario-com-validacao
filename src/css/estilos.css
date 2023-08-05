@@ -138,7 +138,7 @@ body {
 
 .rodape .titulo {
     color: var(--cor-branco);
-    font-size: 1.125em;
+    font-size: 1em;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
