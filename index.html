@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Formulário de Cadastro com Validação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho"></header>
+
+    <main class="estrutura-formulario">
+        <div class="titulo">
+            <h2>Cadastre-se</h2>
+        </div>
+
+        <form id="formulario" class="formulario">
+            <div class="controle-de-formulario">
+                <label for="usuario">Nome Completo</label>
+                <input type="text" id="usuario" placeholder="Digite seu nome de usuário">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="controle-de-formulario">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" placeholder="Digite seu email">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="controle-de-formulario">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Digite sua senha">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="controle-de-formulario">
+                <label for="confirmacao-de-senha">Confirmação de Senha</label>
+                <input type="password" id="confirmacao-de-senha" placeholder="Digite sua senha novamente">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="botao">
+                <button type="submit">Criar Conta</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="rodape">
+        <h1 class="titulo">
+            Projeto - Formulário de Cadastro com Validação<br />
+            Criado com base no Canal do YouTube | <a href="https://www.youtube.com/watch?v=3Ec9zY1C2og" target="_blank"
+                rel="noopener noreferrer">Felipe Rocha • dicasparadev</a>
+        </h1>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/b5bb1aed38.js" crossorigin="anonymous">
+    </script>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

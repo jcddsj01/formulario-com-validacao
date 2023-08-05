@@ -1,0 +1,154 @@
+:root {
+    --cor-preto: #000;
+    --cor-branco: #fff;
+    --cor-cinza-claro: #e7e7e7;
+    --cor-cinza-escuro: #838383;
+    --cor-verde: #036053;
+    --cor-vermelho: #e74c3c;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--cor-cinza-escuro);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estrutura-formulario {
+    background-color: var(--cor-cinza-claro);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.estrutura-formulario .titulo {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+    padding: 20px;
+}
+
+.formulario {
+    padding: 20px;
+}
+
+.controle-de-formulario {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.controle-de-formulario label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.controle-de-formulario input {
+    border: 2px solid var(--cor-cinza-claro);
+    display: block;
+    border-radius: 3px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+
+.controle-de-formulario i {
+    position: absolute;
+    top: 33px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.controle-de-formulario small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+.botao button {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+    font-weight: bold;
+    border: 2px solid var(--cor-preto);
+    font-size: 17px;
+    padding: 10px;
+    cursor: pointer;
+    width: 50%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.botao button:hover {
+    background-color: var(--cor-cinza-claro);
+    color: var(--cor-preto);
+    font-weight: bold;
+}
+
+.controle-de-formulario.sucesso input {
+    border-color: var(--cor-verde);
+}
+
+.controle-de-formulario.erro input {
+    border-color: var(--cor-vermelho);
+}
+
+.controle-de-formulario.erro {
+    font-size: 18px;
+}
+
+.controle-de-formulario.sucesso i.fa-check-circle {
+    color: var(--cor-verde);
+    visibility: visible;
+}
+
+.controle-de-formulario.erro i.fa-exclamation-circle {
+    color: var(--cor-vermelho);
+    visibility: visible;
+}
+
+.controle-de-formulario.erro small {
+    color: var(--cor-vermelho);
+    visibility: visible;
+}
+
+.rodape {
+    background-color: var(--cor-preto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    margin-top: 800px;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
+    line-height: 25px;
+}
+
+.rodape .titulo {
+    color: var(--cor-branco);
+    font-size: 18px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.rodape .titulo a {
+    color: var(--cor-branco);
+    text-decoration: none;
+}
+
+.rodape .titulo a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
