@@ -11,7 +11,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     background-color: var(--cor-cinza-escuro);
     width: 100%;
-    min-height: 100vh;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
