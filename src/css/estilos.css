@@ -7,6 +7,22 @@
     --cor-vermelho: #e74c3c;
 }
 
+::-webkit-scrollbar {
+    width: 17px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--cor-preto);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
 body {
     font-family: 'Josefin Sans', sans-serif;
     background-color: var(--cor-cinza-escuro);
