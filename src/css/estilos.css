@@ -5,6 +5,7 @@
     --cor-cinza-escuro: #838383;
     --cor-verde: #036053;
     --cor-vermelho: #e74c3c;
+    --fonte-principal: 'Josefin Sans', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -24,7 +25,7 @@
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: var(--fonte-principal);
     background-color: var(--cor-cinza-escuro);
     width: 100%;
     margin-top: 50px;
