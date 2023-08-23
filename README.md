@@ -1,4 +1,4 @@
-## Projeto - Formulário de Cadastro com Validação <br> Criado com base no Canal do YouTube | [Felipe Rocha • dicasparadev](https://www.youtube.com/@dicasparadevs)
+## Projeto - Formulário de Cadastro com Validação <br> Criado com base do Canal no YouTube | [Felipe Rocha • dicasparadev](https://www.youtube.com/@dicasparadevs)
 
 O código permite que os usuários preencham um formulário com informações como nome completo, e-mail, senha e confirmação de senha.
 Ele realiza verificações para assegurar que os dados estejam corretos e no formato adequado, melhorando a precisão das informações enviadas.
@@ -15,7 +15,7 @@ Implantação do Projeto no GitHub Pages: [Explore o projeto clicando aqui.](htt
 
 ---
 
-## Project - Registration Form with Validation <br> Created based on YouTube Channel | [Felipe Rocha • dicasparadev](https://www.youtube.com/@dicasparadevs)
+## Project - Registration Form with Validation <br> Created on the basis of the YouTube channel | [Felipe Rocha • dicasparadev](https://www.youtube.com/@dicasparadevs)
 
 The code allows users to fill in a form with information such as full name, email, password and password confirmation.
 It performs checks to ensure that the data is correct and in the proper format, improving the accuracy of the information submitted.
