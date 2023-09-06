@@ -158,6 +158,8 @@ body {
 .rodape .titulo a {
     color: var(--cor-branco);
     text-decoration: none;
+    text-transform: none;
+    font-size: 1.1em;
 }
 
 .rodape .titulo a:hover {
