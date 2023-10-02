@@ -135,34 +135,3 @@ body {
     color: var(--cor-vermelho);
     visibility: visible;
 }
-
-.rodape {
-    text-align: center;
-    position: absolute;
-    background-color: var(--cor-preto);
-    height: auto;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
-    line-height: 25px;
-    margin-top: 800px;
-    width: 100%;
-}
-
-.rodape .titulo {
-    color: var(--cor-branco);
-    font-size: 1em;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-}
-
-.rodape .titulo a {
-    color: var(--cor-branco);
-    text-decoration: none;
-    text-transform: none;
-    font-size: 1.1em;
-}
-
-.rodape .titulo a:hover {
-    text-decoration: underline;
-    text-underline-position: under;
-}
