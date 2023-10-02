@@ -1,4 +1,12 @@
-## Projeto - Formulário de Cadastro com Validação <br> Criado com base do Canal no YouTube | [Felipe Rocha • dicasparadev](https://www.youtube.com/@dicasparadevs)
+<h1 align="center">
+  Formulário com Validação
+</h1>
+
+<div align="center">
+  <img src="src/img/formulario-com-validacao.png" width="100%" />
+</div>
+
+## Projeto - Formulário de Cadastro com Validação 
 
 O código permite que os usuários preencham um formulário com informações como nome completo, e-mail, senha e confirmação de senha.
 Ele realiza verificações para assegurar que os dados estejam corretos e no formato adequado, melhorando a precisão das informações enviadas.
@@ -11,11 +19,14 @@ Tecnologias Utilizadas:
 * [Google Fonts:](https://fonts.google.com/) Utilizado para acessar e aplicar fontes personalizadas aos textos da página, melhorando a estilização e a legibilidade.
 * [GitHub Pages:](https://pages.github.com/): Plataforma de hospedagem gratuita para projetos estáticos, permitindo que o site seja acessível na web.
 
+Créditos:
+* Criado com base do Canal no YouTube | [Felipe Rocha • dicasparadevs](https://www.youtube.com/@dicasparadevs)
+
 Implantação do Projeto no GitHub Pages: [Explore o projeto clicando aqui.](https://jcddsj01.github.io/formulario-com-validacao/)
 
 ---
 
-## Project - Registration Form with Validation <br> Created on the basis of the YouTube channel | [Felipe Rocha • dicasparadev](https://www.youtube.com/@dicasparadevs)
+## Project - Registration Form with Validation
 
 The code allows users to fill in a form with information such as full name, email, password and password confirmation.
 It performs checks to ensure that the data is correct and in the proper format, improving the accuracy of the information submitted.
@@ -27,5 +38,8 @@ Technologies used:
 * [JavaScript:](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) Used to add interactivity to the page, allowing the user to select characters and display information dynamically.
 * [Google Fonts:](https://fonts.google.com/) Used to access and apply custom fonts to page texts, improving stylization and readability.
 * [GitHub Pages:](https://pages.github.com/): Free hosting platform for static projects, allowing the website to be accessible on the web.
+
+Credits:
+* Created on the basis of the YouTube channel | [Felipe Rocha • dicasparadevs](https://www.youtube.com/@dicasparadevs)
 
 Project deployment on GitHub Pages: [Explore the project by clicking here.](https://jcddsj01.github.io/formulario-com-validacao/)
